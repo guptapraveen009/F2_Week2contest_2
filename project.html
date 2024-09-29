@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <title>password</title>
+</head>
+<body>
+   <form id="e-from">
+  <label id="l-email">E-mail</label>
+   <input id="e-mailid" type="email" placeholder="Enter Your Gmail"  spellcheck="false" onkeyup="validemail()">
+   <br>
+    <span id="e-mailerror"></span>
+    <br>
+
+   <label id="l-pass">Password</label> 
+   <input id="in-pass" type="password" username="Enter Your Password" placeholder="Enter Your Password" onkeyup="validpassword()">
+    <br>
+    <span id="passerror"></span>
+    <br>
+    <button id="btn">Submit </button>
+</form>
+<script src="project.js"></script>
+</body>
+</html>
